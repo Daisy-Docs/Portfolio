@@ -1,6 +1,3 @@
-# Portfolio
-Contains examples from 3 companies.
-
 # About Me
 Excited about technical writing!
 
