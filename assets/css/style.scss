@@ -11,3 +11,8 @@ h1, h2, h3, h4, h5, h6, .site-title {
 body {
   font-family: 'Quicksand', Arial, sans-serif !important;
 }
+
+a.button {
+  background-image: none !important;
+  padding-left: 1em !important; /* Adjust as needed for your new icon */
+}
