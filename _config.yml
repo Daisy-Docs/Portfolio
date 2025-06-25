@@ -2,4 +2,9 @@ title: "My Portfolio"
 description: "My Portfolio"
 email: "daisydeknight@gmail.com"
 theme: "just-the-docs"
+
+plugins:
+  - jekyll-feed
+  - just-the-docs
+
 ``` 
