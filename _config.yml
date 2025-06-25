@@ -1,4 +1,4 @@
 description: "My Portfolio"
 email: "daisydeknight@gmail.com"
-theme: jekyll-theme-just-the-docs
+remote_theme: jekyll-theme-just-the-docs
 ``` 
