@@ -1,10 +1,6 @@
 title: "My Portfolio"
 description: "My Portfolio"
 email: "daisydeknight@gmail.com"
-theme: jekyll-theme-architect
-
-plugins:
-  - jekyll-feed
-  - just-the-docs
+theme: "jekyll-theme-architect"
 
 ``` 
