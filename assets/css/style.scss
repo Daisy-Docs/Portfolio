@@ -7,4 +7,12 @@
 // Write your custom CSS below
 body {
   font-family: 'Quicksand', Arial, sans-serif;
+  
+.quicksand-<uniquifier> {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+  
 }
