@@ -7,12 +7,20 @@
 // Write your custom CSS below
 body {
   font-family: 'Quicksand', Arial, sans-serif;
-  
-.quicksand-<uniquifier> {
-  font-family: "Quicksand", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+---
+---
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+@import "{{ site.theme }}";
+
+// Make header fonts use Quicksand, with !important to ensure override
+h1, h2, h3, h4, h5, h6, .site-title {
+  font-family: 'Quicksand', Arial, sans-serif !important;
+}
+
+// If you want the body text to use Quicksand too, add:
+body {
+  font-family: 'Quicksand', Arial, sans-serif !important;
 }
   
 }
