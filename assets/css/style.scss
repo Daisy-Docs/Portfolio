@@ -1,0 +1,10 @@
+---
+---
+
+// Import the original theme styles
+@import "{{ site.theme }}";
+
+// Write your custom CSS below
+body {
+  font-family: 'Quicksand', Arial, sans-serif;
+}
