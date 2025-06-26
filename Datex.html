@@ -5,13 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Datex - Warehouse Logistics</title>
 
-  <!-- ✅ Import Quicksand from Google Fonts -->
+  <!-- Import Quicksand from Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
 
   <style>
     body {
       font-family: 'Quicksand', Arial, sans-serif;
-      max-width: 800px;
+      max-width: 1200px;
       margin: 0 auto;
       padding: 2rem;
       background-color: #f9f9f9;
@@ -21,14 +21,28 @@
     h1 {
       text-align: center;
       color: #2268b2;
+      margin-bottom: 2rem;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
     }
 
     .sample {
-      margin-bottom: 1.5rem;
-      padding: 1rem;
       background: #fff;
+      padding: 1rem;
       border-radius: 5px;
       box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .sample h2 {
+      font-size: 1.1rem;
+      margin: 0 0 0.5rem;
     }
 
     .sample a {
@@ -40,28 +54,41 @@
     .sample a:hover {
       text-decoration: underline;
     }
+
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+    }
+
+    /* Responsive for smaller screens */
+    @media (max-width: 800px) {
+      .grid-container {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 500px) {
+      .grid-container {
+        grid-template-columns: 1fr;
+      }
+    }
   </style>
 </head>
 <body>
   <h1>Datex - Warehouse Logistics</h1>
 
-  <div class="sample">
-    <h2><a href="https://example.com/sample1.pdf" target="_blank">API Documentation: Payment Gateway</a></h2>
-    <p>A comprehensive guide explaining the integration process for a fictional payment API.</p>
-  </div>
-
-  <div class="sample">
-    <h2><a href="https://example.com/sample2.pdf" target="_blank">User Manual: SaaS Dashboard</a></h2>
-    <p>Step-by-step instructions and annotated screenshots for onboarding users to a SaaS platform.</p>
-  </div>
-
-  <div class="sample">
-    <h2><a href="https://example.com/sample3.pdf" target="_blank">Release Notes: Version 3.1</a></h2>
-    <p>Concise and clear updates on new features, fixes, and known issues for a software release.</p>
-  </div>
-
-  <footer style="text-align:center; margin-top:2rem;">
-    <p>&copy; 2025 Daisy DeKnight | <a href="mailto:daisydeknight@gmail.com">Contact Me</a></p>
-  </footer>
-</body>
-</html>
+  <div class="grid-container">
+    <div class="sample">
+      <h2><a href="#">Sample 1</a></h2>
+      <p>API Documentation: Payment Gateway</p>
+    </div>
+    <div class="sample">
+      <h2><a href="#">Sample 2</a></h2>
+      <p>User Manual: SaaS Dashboard</p>
+    </div>
+    <div class="sample">
+      <h2><a href="#">Sample 3</a></h2>
+      <p>Release Notes: Version 3.1</p>
+    </div>
+    <div class="sample">
+      <h2>
