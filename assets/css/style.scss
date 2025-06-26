@@ -18,6 +18,21 @@ a.button {
   font-family: 'Quicksand', Arial, sans-serif !important;
 }
 
+.button-group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.headshot {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #2268b2;
+}
+
 .resume-link {
   font-size: 1.5em; /* Or try 24px, or adjust as you like */
   font-weight: bold; /* Optional: make it bold */
